@@ -1,0 +1,85 @@
+.card {
+    width: 500px;
+    height: fit-content;
+    background-color: aliceblue;
+    border-radius: 25px;
+    border: solid 2px navy;
+    margin: 20px;
+    padding: 40px;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.nome {
+    color: navy;
+}
+
+.border {
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.icone1 {
+    width: 100px;
+    height: 100px;
+    background-image: url("https://cdn-icons-png.flaticon.com/512/706/706830.png");
+    background-size: cover;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.icone2 {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://cdn-icons-png.flaticon.com/256/3681/3681928.png");
+    background-size: cover;
+}
+
+body {
+    height: 92vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: background 3s infinite alternate;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo {
+    font-family: monospace;
+    font-size: 30px;
+
+}
+
+.cor-principal {
+    color: navy
+}
+
+.texto {
+    font-family: monospace;
+    font-size: 15px;
+}
+
+
+@keyframes background {
+    0% {
+        background-color: blue;
+    }
+
+    25% {
+        background-color: rgb(83, 83, 255);
+    }
+
+    50% {
+        background-color: rgb(174, 174, 255);
+    }
+
+    100% {
+        background-color: rgb(213, 213, 255);
+    }
+}
